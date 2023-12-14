@@ -112,6 +112,10 @@ body {
     background-color: #fcb8ff;
 }
 
+.footer-link:nth-child(2) {
+    margin: 0 24px;
+}
+
 @media (max-width: 420px) {
     .first-card-row {
         flex-direction: column;
@@ -126,4 +130,12 @@ body {
     .hero-title {
         font-size: 38px;
     }
+}
+
+.foter-content {
+    flex-direction: column;
+}
+
+.footer-link:nth-child(2) {
+    margin: 0;
 }
